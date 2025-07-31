@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: dimgray;
+            height: 100vh;
+        }
+        header{
+            background-color: white;
+            background-color: white;
+            margin: 10px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.466);
+        }
+        ul{
+            display: flex;
+            
+        }
+        ul > li{
+            margin-left: 20px;
+        }
+        nav > ul > li{
+            list-style: none;
+        }
+        nav > ul > li > a{
+            color: black;
+            font-weight: 550;
+        }
+        nav > ul > li > a:hover{
+            color: rgb(151, 150, 150);
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        article{
+            background-color: lightgray;
+            padding: 20px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            
+        }
+        footer > p > a{
+            color: rgb(161, 161, 161);
+        }
+        footer > p > a:hover{
+            color: rgb(192, 191, 191);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>
+                    Notícias sobre o Brasil
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam voluptatibus laudantium at in nulla? Saepe odio magni doloremque optio quos sit autem? Quae illum accusamus, voluptates doloremque tempore esse?</p>
+                <aside>
+                    <p>Artigo escrito por</p>
+                </aside>
+            </article>
+            <article>
+                <h2>
+                    Notícias sobre o Mundo
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam voluptatibus laudantium at in nulla? Saepe odio magni doloremque optio quos sit autem? Quae illum accusamus, voluptates doloremque tempore esse?</p>
+                <aside>
+                    <p>Artigo escrito por</p>
+                </aside>
+            </article>
+            <article>
+                <h2>
+                    Notícias sobre o Flamengo
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam voluptatibus laudantium at in nulla? Saepe odio magni doloremque optio quos sit autem? Quae illum accusamus, voluptates doloremque tempore esse?</p>
+                <aside>
+                    <p>Artigo escrito por</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="">Cauã Nabuco</a></p>
+    </footer>
+</body>
+</html>
